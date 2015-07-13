@@ -165,8 +165,8 @@ void draw()
   }
   
   
-  int v0 = int(((40-output)*v + write_ac*d));
-  if(v0 > 40) v0 = 40;
+  int v0 = int(((30-output)*v + write_ac*d));
+  if(v0 > 30) v0 = 30;
   myPort0.write(v0);
   
   println("p", inpitch);
